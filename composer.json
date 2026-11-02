@@ -21,7 +21,7 @@
     "homepage": "https://sendmux.ai",
     "support": {
         "email": "contact@sendmux.ai",
-        "source": "https://github.com/Sendmux/mailwizz-smtp-proxy"
+        "source": "https://github.com/qubrics/mailwizz-smtp-proxy"
     },
     "require": {
         "php": ">=8.0"
