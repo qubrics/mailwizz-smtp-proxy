@@ -2,16 +2,16 @@
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://raw.githubusercontent.com/Sendmux/mailwizz-smtp-proxy/main/.github/assets/logo-dark.svg"
+      srcset="https://raw.githubusercontent.com/qubrics/mailwizz-smtp-proxy/main/.github/assets/logo-dark.svg"
     />
     <source
       media="(prefers-color-scheme: light)"
-      srcset="https://raw.githubusercontent.com/Sendmux/mailwizz-smtp-proxy/main/.github/assets/logo-light.svg"
+      srcset="https://raw.githubusercontent.com/qubrics/mailwizz-smtp-proxy/main/.github/assets/logo-light.svg"
     />
     <img
       width="180"
       alt="Sendmux for MailWizz"
-      src="https://raw.githubusercontent.com/Sendmux/mailwizz-smtp-proxy/main/.github/assets/logo-light.svg"
+      src="https://raw.githubusercontent.com/qubrics/mailwizz-smtp-proxy/main/.github/assets/logo-light.svg"
     />
   </picture>
 </p>
@@ -55,7 +55,7 @@ graph LR
 
 ### 1. Install the extension
 
-1. [Download the latest release](https://github.com/Sendmux/mailwizz-smtp-proxy/releases/latest/download/sendmux-web-api.zip).
+1. [Download the latest release](https://github.com/qubrics/mailwizz-smtp-proxy/releases/latest/download/sendmux-web-api.zip).
 2. In the MailWizz backend, open **Extend → Extensions → Upload extension**.
 3. Upload the archive and enable **Sendmux Sending API**.
 
@@ -113,7 +113,7 @@ The MailWizz extension is one way to use Sendmux. Developers and AI agents can a
 - **[Email Inbox API for AI Agents](https://sendmux.ai/product/inboxes/)** — give agents mailboxes to receive, search, organise and reply to email. See the [mailbox guide](https://sendmux.ai/docs/guides/mailboxes).
 - **[Sendmux MCP](https://sendmux.ai/docs/guides/mcp)** — connect AI clients to authorised Management, Mailbox and Sending tools through hosted MCP at `https://mcp.sendmux.ai/mcp` or the [`sendmux-mcp` package](https://pypi.org/project/sendmux-mcp/).
 - **[Sendmux CLI](https://sendmux.ai/docs/cli)** — manage sending accounts, mailboxes and email workflows from the terminal with [`@sendmux/cli`](https://www.npmjs.com/package/@sendmux/cli) or [Snap](https://snapcraft.io/sendmux).
-- **[Sendmux SDKs](https://sendmux.ai/docs/sdks)** — add package-managed clients for the Sending, Mailbox and Management APIs. Browse the [official SDK, CLI and MCP source](https://github.com/Sendmux/sendmux-sdk).
+- **[Sendmux SDKs](https://sendmux.ai/docs/sdks)** — add package-managed clients for the Sending, Mailbox and Management APIs. Browse the [official SDK, CLI and MCP source](https://github.com/qubrics/qubrics-sdk).
 
 ## Frequently asked questions
 
