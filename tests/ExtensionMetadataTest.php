@@ -13,7 +13,7 @@ final class ExtensionMetadataTest extends TestCase
     {
         $extension = new SendmuxWebApiExt();
 
-        self::assertSame('0.3.0', $extension->version);
+        self::assertSame('0.3.1', $extension->version);
         self::assertSame('2.0.34', $extension->minAppVersion);
     }
 }

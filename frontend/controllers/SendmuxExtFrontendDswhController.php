@@ -12,7 +12,7 @@ Yii::import('frontend.controllers.DswhController');
  * @link https://sendmux.ai
  * @copyright 2026 Sendmux
  * @license FSL-2.0 (Functional Source License 2.0)
- * @version 0.3.0
+ * @version 0.3.1
  */
 
 class SendmuxExtFrontendDswhController extends DswhController
