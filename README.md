@@ -57,7 +57,7 @@ graph LR
 
 1. [Download the latest release](https://github.com/qubrics/mailwizz-smtp-proxy/releases/latest/download/sendmux-web-api.zip).
 2. In the MailWizz backend, open **Extend → Extensions → Upload extension**.
-3. Upload the archive and enable **Sendmux Sending API**.
+3. Upload the archive and enable **Qubrics Sending API**.
 
 ### 2. Add sending accounts and create a key
 
@@ -70,7 +70,7 @@ graph LR
 ### 3. Create the MailWizz delivery server
 
 1. In MailWizz, open **Delivery servers → Create new**.
-2. Select **Sendmux Web API**.
+2. Select **Qubrics Web API**.
 3. Paste the `smx_mbx_` value into **Sending Key** and complete the required sender fields.
 4. Save the server. On this first save, it remains inactive until its signed webhook is connected.
 

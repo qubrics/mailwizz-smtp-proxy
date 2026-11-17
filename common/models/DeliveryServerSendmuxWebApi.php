@@ -54,6 +54,11 @@ class DeliveryServerSendmuxWebApi extends DeliveryServer
      */
     protected $_providerUrl = 'https://sendmux.ai/';
 
+    public function getTypeName(): string
+    {
+        return t('servers', 'Qubrics Web API');
+    }
+
     /**
      * Encrypt the webhook signing secret stored in the otherwise-unused
      * delivery-server username field.

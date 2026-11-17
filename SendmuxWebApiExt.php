@@ -17,7 +17,7 @@
 class SendmuxWebApiExt extends ExtensionInit
 {
     // name of the extension as shown in the backend panel
-    public $name = 'Sendmux Sending API';
+    public $name = 'Qubrics Sending API';
 
     // description of the extension as shown in backend panel
     public $description = 'Send emails via the Sendmux Sending API with automatic bounce and complaint handling. Visit sendmux.ai for details.';
